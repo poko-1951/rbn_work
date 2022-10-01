@@ -71,7 +71,6 @@ def input_money
 
     if money.money_unit == "円" and money.is_scratched == "false"
       money_data << money
-      p money_data
     else
       exclude_money_data << money
     end
